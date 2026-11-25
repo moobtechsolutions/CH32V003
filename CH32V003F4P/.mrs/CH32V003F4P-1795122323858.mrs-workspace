@@ -1,13 +1,14 @@
 {
 	"folders": [
-		{
-			"path": "."
-		},
-		{
-			"name": "CH32V003F4P",
-			"path": "c:\\Users\\USUARIO\\Documents\\GitHub\\CH32V003\\CH32V003F4P"
-		}
-	],
+        {
+            "name": ".mrs",
+            "path": "."
+        },
+        {
+            "name": "PWM_Puss_Pull",
+            "path": "../../PWM_Puss_Pull"
+        }
+    ],
 	"settings": {
 		"mrs.workspace.type": "project",
 		"files.associations": {
