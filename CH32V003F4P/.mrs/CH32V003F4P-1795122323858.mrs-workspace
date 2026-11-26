@@ -5,8 +5,8 @@
             "path": "."
         },
         {
-            "name": "PWM_Puss_Pull",
-            "path": "../../PWM_Puss_Pull"
+            "name": "USART",
+            "path": "../../USART"
         }
     ],
 	"settings": {
