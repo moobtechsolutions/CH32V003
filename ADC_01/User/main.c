@@ -101,6 +101,8 @@ void initializeADC()
 
 }
 
+
+
 float calculateVoltage( uint16_t ADCbits)
 {
     float vref = 3.3f;
