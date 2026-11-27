@@ -5,8 +5,8 @@
             "path": "."
         },
         {
-            "name": "USART",
-            "path": "../../USART"
+            "name": "ADC_01",
+            "path": "../../ADC_01"
         }
     ],
 	"settings": {
