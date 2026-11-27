@@ -11,12 +11,6 @@
  *******************************************************************************/
 
 /*
- *@Note
- *Multiprocessor communication mode routine:
- *Master:USART1_Tx(PD5)\USART1_Rx(PD6).
- *This routine demonstrates that USART1 receives the data sent by CH341 and inverts
- *it and sends it (baud rate 115200).
- *
  *Hardware connection:PD5 -- Rx
  *                     PD6 -- Tx
  *
@@ -24,20 +18,6 @@
 
 #include "debug.h"
 
-
-/* Global define */
-
-
-/* Global Variable */
-
-
-/*********************************************************************
- * @fn      USARTx_CFG
- *
- * @brief   Initializes the USART2 & USART3 peripheral.
- *
- * @return  none
- */
 void USARTx_CFG(void)
 {
     GPIO_InitTypeDef  GPIO_InitStructure = {0};
@@ -101,8 +81,6 @@ void initializeADC()
 
 }
 
-
-
 float calculateVoltage( uint16_t ADCbits)
 {
     float vref = 3.3f;
@@ -116,7 +94,7 @@ void printADCVoltage()
 
     if(adcValue == 0)
     {
-        printf("Valor do ADC ¨¦ zero!\n");
+        printf("Valor do ADC §Ú§Ø zero!\n");
     }
     else
     {
